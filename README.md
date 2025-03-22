@@ -68,7 +68,7 @@ The **Voice Command Wheelchair** is an **Arduino-powered smart wheelchair** desi
 - **IoT Integration**: Remote monitoring via cloud.
 
 ## Contact
-For any inquiries, please email **your.email@example.com** or open an [issue](https://github.com/yourusername/VoiceCommandWheelchair/issues) on GitHub.
+For any inquiries, please email **mdanikk630@gmail.com** or open an [issue](https://github.com/anikmd/VoiceCommandWheelchair/issues) on GitHub.
 
 ---
 🚀 _Empowering Mobility with Technology!_
