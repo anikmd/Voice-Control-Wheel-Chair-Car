@@ -1,6 +1,6 @@
 # Voice Control Wheelchair for Disabled Person
 
-![Project Banner](docs/images/project_banner.png)
+![Project Banner](doc/Demo.PNG)
 
 ## 🚀 Project Overview
 Voice Control Wheelchair for Disabled Person is an advanced automation project designed to improve accessibility and efficiency through cutting-edge technology. This project integrates **voice commands, IoT, automation, and real-time data processing** to enhance user experience and control.
