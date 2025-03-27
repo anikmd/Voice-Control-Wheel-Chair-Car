@@ -2,17 +2,17 @@
 
 ![Project Banner](doc/Demo.PNG)
 
-## 🚀 Project Overview
+## Project Overview
 Voice Control Wheelchair for Disabled Person is an advanced automation project designed to improve accessibility and efficiency through cutting-edge technology. This project integrates **voice commands, IoT, automation, and real-time data processing** to enhance user experience and control.
 
-## 🔥 Features
+## Features
 - **Voice-Controlled Operations**: Users can control the system via voice commands.
 - **IoT Connectivity**: Cloud-based monitoring and control.
 - **Obstacle Detection**: Sensors to prevent collisions.
 - **Remote Accessibility**: Operate via a mobile app or web interface.
 - **Power Efficiency**: Optimized battery and energy management.
 
-## 🛠 Components Used
+## Components Used
 | Component | Purpose |
 |-----------|---------|
 | Microcontroller (Arduino/Raspberry Pi) | Main processing unit |
@@ -22,13 +22,13 @@ Voice Control Wheelchair for Disabled Person is an advanced automation project d
 | Motor Driver | Controls movement |
 | Power Supply Unit | Ensures stable power |
 
-## 📷 System Architecture
-![System Architecture](docs/diagrams/system_architecture.png)
+## System Architecture
+![System Architecture](doc/Diagram.PNG)
 
-## ⚡ Installation & Setup
+## Installation & Setup
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/yourusername/ProjectName.git
+   git clone https://github.com/anikmd/Voice-Control-Wheel-Chair-Car.git
    cd ProjectName
    ```
 2. **Upload Firmware to Microcontroller:**
@@ -39,7 +39,7 @@ Voice Control Wheelchair for Disabled Person is an advanced automation project d
 4. **Power On & Test:**
    - Ensure stable power supply and run initial tests.
 
-## 🎮 Usage Instructions
+## Usage Instructions
 - **Voice Commands:**
   - "Start" → Activates the system
   - "Stop" → Halts operations
@@ -47,7 +47,7 @@ Voice Control Wheelchair for Disabled Person is an advanced automation project d
 - **IoT Control:**
   - Access via **mobile app** or **web dashboard**.
 
-## 📊 Test Results
+## Test Results
 | Module | Success Rate |
 |--------|-------------|
 | Voice Recognition | 95% |
@@ -55,12 +55,12 @@ Voice Control Wheelchair for Disabled Person is an advanced automation project d
 | Obstacle Detection | 90% |
 | Remote Control | 99% |
 
-## 🚀 Future Improvements
+## Future Improvements
 - **AI Integration**: Smart decision-making with AI.
 - **Expanded IoT Features**: Real-time data logging.
 - **Improved Voice Accuracy**: Enhanced recognition under noise.
   
-## 📬 Contact
-For any inquiries, email **mdanikk630@example.com** or open an [issue](https://github.com/yourusername/ProjectName/issues) on GitHub.
+## Contact
+For any inquiries, email **mdanikk630@example.com** or open an [issue](https://github.com/anikmd/Voice-Control-Wheel-Chair-Car/issues) on GitHub.
 
 
