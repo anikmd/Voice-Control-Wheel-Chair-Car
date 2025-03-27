@@ -1,75 +1,66 @@
-# Voice Command Wheelchair: Arduino-Based Smart Mobility Solution
+# Voice Control Wheelchair for Disabled Person
 
-![Voice Command Wheelchair](docs/images/wheelchair_banner.png)
+![Project Banner](docs/images/project_banner.png)
 
-## Project Overview
-The **Voice Command Wheelchair** is an **Arduino-powered smart wheelchair** designed to assist individuals with mobility impairments. It uses **voice recognition**, **motor control**, and **obstacle avoidance** to provide hands-free navigation.
+## 🚀 Project Overview
+Voice Control Wheelchair for Disabled Person is an advanced automation project designed to improve accessibility and efficiency through cutting-edge technology. This project integrates **voice commands, IoT, automation, and real-time data processing** to enhance user experience and control.
 
-## Features
-- **Voice-Controlled Navigation**: Move forward, backward, left, and right using voice commands.
-- **Obstacle Avoidance**: Uses ultrasonic sensors to detect and avoid obstacles.
-- **Bluetooth Remote Control**: Allows manual control via a smartphone app.
-- **Speed Control**: Adjusts speed based on environment and user preference.
-- **Battery Monitoring**: Alerts when power is low.
+## 🔥 Features
+- **Voice-Controlled Operations**: Users can control the system via voice commands.
+- **IoT Connectivity**: Cloud-based monitoring and control.
+- **Obstacle Detection**: Sensors to prevent collisions.
+- **Remote Accessibility**: Operate via a mobile app or web interface.
+- **Power Efficiency**: Optimized battery and energy management.
 
-## Components Used
+## 🛠 Components Used
 | Component | Purpose |
 |-----------|---------|
-| Arduino UNO R3 | Main microcontroller |
-| Voice Recognition Module (V3) | Detects user voice commands |
-| Motor Driver L298N | Controls the wheelchair's motors |
+| Microcontroller (Arduino/Raspberry Pi) | Main processing unit |
+| Voice Recognition Module | Detects user commands |
 | Ultrasonic Sensors | Detects obstacles |
-| Bluetooth HC-05 Module | Allows smartphone remote control |
-| 12V DC Motors | Drives the wheelchair |
-| 12V Battery | Power source |
+| Wi-Fi / Bluetooth Module | Enables IoT features |
+| Motor Driver | Controls movement |
+| Power Supply Unit | Ensures stable power |
 
-## System Architecture
+## 📷 System Architecture
 ![System Architecture](docs/diagrams/system_architecture.png)
 
-## Installation & Setup
+## ⚡ Installation & Setup
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/anikmd/VoiceCommandWheelchair.git
-   cd VoiceCommandWheelchair
+   git clone https://github.com/yourusername/ProjectName.git
+   cd ProjectName
    ```
-2. **Upload Firmware to Arduino:**
-   - Open `software/firmware/voice_wheelchair.ino` in **Arduino IDE**.
-   - Connect your Arduino UNO.
-   - Select the correct board and COM port.
-   - Upload the code.
+2. **Upload Firmware to Microcontroller:**
+   - Open `software/firmware/main.ino` in **Arduino IDE**.
+   - Connect the microcontroller and upload the code.
 3. **Hardware Setup:**
-   - Connect **Voice Module, Motor Driver, and Sensors** as per the **circuit diagram** in `docs/diagrams/circuit_diagram.png`.
+   - Assemble components as per the **circuit diagram** in `docs/diagrams/circuit_diagram.png`.
 4. **Power On & Test:**
-   - Ensure the wheelchair receives **12V power**.
-   - Test voice recognition and Bluetooth functionality.
+   - Ensure stable power supply and run initial tests.
 
-## Usage Instructions
+## 🎮 Usage Instructions
 - **Voice Commands:**
-  - Say "Forward" → Moves forward
-  - Say "Backward" → Moves backward
-  - Say "Left" / "Right" → Turns in that direction
-  - Say "Stop" → Stops the wheelchair
-- **Obstacle Avoidance:**
-  - The wheelchair will automatically stop if an obstacle is detected.
-- **Bluetooth Control:**
-  - Use a smartphone app to manually navigate.
+  - "Start" → Activates the system
+  - "Stop" → Halts operations
+  - "Forward" / "Backward" → Moves in the given direction
+- **IoT Control:**
+  - Access via **mobile app** or **web dashboard**.
 
-## Test Results
-| Module | Testing Success Rate |
-|--------|---------------------|
+## 📊 Test Results
+| Module | Success Rate |
+|--------|-------------|
 | Voice Recognition | 95% |
-| Motor Control | 100% |
+| IoT Connectivity | 98% |
 | Obstacle Detection | 90% |
-| Bluetooth Remote | 98% |
+| Remote Control | 99% |
 
-## Future Improvements
-- **Autonomous Navigation**: AI-based path planning.
-- **Fall Detection**: Alerts emergency contacts in case of a fall.
-- **IoT Integration**: Remote monitoring via cloud.
+## 🚀 Future Improvements
+- **AI Integration**: Smart decision-making with AI.
+- **Expanded IoT Features**: Real-time data logging.
+- **Improved Voice Accuracy**: Enhanced recognition under noise.
+  
+## 📬 Contact
+For any inquiries, email **mdanikk630@example.com** or open an [issue](https://github.com/yourusername/ProjectName/issues) on GitHub.
 
-## Contact
-For any inquiries, please email **mdanikk630@gmail.com** or open an [issue](https://github.com/anikmd/VoiceCommandWheelchair/issues) on GitHub.
-
----
-🚀 _Empowering Mobility with Technology!_
 
